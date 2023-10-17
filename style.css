@@ -13,7 +13,17 @@ div~p {
 
 }
 
-h3 {
+h3:nth-child(1) {
     color: pink;
+}
+
+div+div>p {
+    color: red;
+
+}
+
+ul>li>p:hover {
+color: aqua;
+
 }
 
