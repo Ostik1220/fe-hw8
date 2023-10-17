@@ -19,11 +19,37 @@ h3:nth-child(1) {
 
 div+div>p {
     color: red;
-
+    
 }
 
-ul>li>p:hover {
-color: aqua;
-
+li>p:hover:nth-child(1n) {
+    color: red;
+    
 }
 
+li>p:hover:nth-child(2n) {
+    color: orange;
+    
+}
+li>p:hover:nth-child(3n) {
+    color: yellow;
+        
+}
+li>p:hover:nth-child(4n) {
+    color: green;
+            
+}
+li>p:hover:nth-child(5n) {
+    color: aqua;
+                
+}
+
+li>p:hover:nth-child(6n) {
+    color: darkblue;
+                    
+}
+
+li>p:hover:nth-child(7n) {
+    color: purple;
+                    
+}
